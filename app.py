@@ -127,7 +127,7 @@ def handel_userinput(user_question):
                 message(messages.content, is_user=True, key=str(i))
             else:
                 message(messages.content, key=str(i))
-        st.write(f"Total Tokens: {cb.total_tokens}" f", Prompt Tokens: {cb.prompt_tokens}" f", Completion Tokens: {cb.completion_tokens}" f", Total Cost (USD): ${cb.total_cost}")
+        # st.write(f"Total Tokens: {cb.total_tokens}" f", Prompt Tokens: {cb.prompt_tokens}" f", Completion Tokens: {cb.completion_tokens}" f", Total Cost (USD): ${cb.total_cost}")
 
 
 
